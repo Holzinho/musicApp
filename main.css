@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+body::after {
+    content: "";
+    background: url("Background1.png");
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+#logo {
+    margin-top: 50px;
+ }
+ #btn-login {
+     width: 178px;
+     height: 28px;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  color: white;
+  border: none;
+ }
+
+ #password, #btn-login, #username {
+     margin-top: 5px;
+     margin: auto;
+     margin-top: 5px;
+ }
+
+ 
+
+  
+
+  
